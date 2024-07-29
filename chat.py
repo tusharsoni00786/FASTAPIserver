@@ -21,7 +21,7 @@ app = FastAPI()
 # Add CORS middleware
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000"],  # Allow requests from your Next.js app
+    allow_origins=["https://ailanguageteacher-29atqsdlz-tushars-projects-f7169ffd.vercel.app/"],  # Allow requests from your Next.js app
     allow_credentials=True,
     allow_methods=["*"],  # Allows all methods
     allow_headers=["*"],  # Allows all headers
