@@ -1,6 +1,6 @@
 python-dotenv
-langchain_core.messages
+langchain_core
 langchain_openai
 fastapi
-fastapi.middleware.cors
 pydantic
+uvicorn
